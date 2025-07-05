@@ -1,3 +1,4 @@
+index.html
 <!DOCTYPE html>
 <html>
 <head>
@@ -40,11 +41,11 @@
 <body>
   <h1>📝 Welcome to Mili Ju</h1>
   <p>Write your ideas, poems, quotes, or stories below and start your journey!</p>
-  
+
   <textarea id="textInput" placeholder="Start writing here..."></textarea><br>
   <button onclick="saveText()">💾 Save Text</button>
-  
-  <div class="saved-text" id="message"></div>
+
+  <p class="saved-text" id="message"></p>
 
   <script>
     function saveText() {
